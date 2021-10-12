@@ -1,0 +1,94 @@
+\documentclass[9pt,a4paper]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% packages %%%%%%%%%%%%%%%%%%%%%%%%
+
+%\documentclass{aimsessay}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+%Import the natbib package and sets a bibliography  and citation styles
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{natbib}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+%\usepackage{siunitx}
+%\usepackage[utf8]{inputenc}
+%\usepackage[english]{babel}
+\usepackage[all]{xy}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=false,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+	pdftitle={Overleaf Example},
+	pdfpagemode=FullScreen,
+}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{psfrag}
+
+\usepackage{url} 
+%\bibliographystyle{abbrvnat}
+\usepackage{booktabs}  
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+%\usepackage[nottoc]{tocbibind}
+
+\usepackage{url} 
+
+\newcommand{\donna}[1]{{\color{red}{#1}}}   
+\newcommand{\ignore}[1]{}
+
+%%%%%%%%%%%%%%%%%%%%% students data %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\student}{Brian KYANJO }
+\newcommand{\course}{Dr. Jodi Mead, Michal Kopera, and Dylan Mikesell}
+\newcommand{\assignment}{ Prof. Donna Calhoun}
+
+
+%%%%%%%%%%%%%%  Shortcut for usual set of numbers  %%%%%%%%%%%
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%555
+\begin{document}
+	
+	%%%%%%%%%%%%%%%%%%%%%%% title page %%%%%%%%%%%%%%%%%%%%%%%%%%
+	\thispagestyle{empty}
+	\begin{center}
+		\textbf{A Riemann Solver for Wet/Dry Interfaces in Finite Volume Schemes\\[0.5cm]
+			Synthesis Paper}
+		\vspace{.2cm}
+	\end{center}
+	
+	%%%%%%%%%%%%%%%%%%%%% assignment information %%%%%%%%%%%%%%%%
+	
+	\begin{center}
+		\rule{17cm}{0.2cm}\\[0.3cm]
+	\end{center}	
+	
+	\noindent	Name: \student \hfill Supervisor: \assignment\\[0.1cm]
+	Committee: \course \hfill Date: \today\\
+	\rule{17cm}{0.05cm}
+	\vspace{.2cm}
+	
+	\section{Introduction}
+	
+	
+	
+		\bibliographystyle{abbrvnat}
+	%\bibliographystyle{plain}
+	\bibliography{references}
+	
+\end{document}
+
